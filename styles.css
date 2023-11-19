@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h1,h2,h4,h5,a{
+  font-family: 'Bebas Neue', sans-serif;
+}
 .header {
   width: 95%;
   margin: 20px auto 0 auto;
@@ -56,6 +60,7 @@
 p {
   color: #686b6e;
 }
+
 .hero_text h5 {
   margin-bottom: 15px;
 }
@@ -70,7 +75,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .hero_content {
   display: flex;
@@ -100,6 +105,10 @@ h1 {
   justify-content: space-between;
   margin-top: 50px;
 }
+.hero_buttons h6{
+ margin-bottom: 10px;
+ text-align: center;
+}
 .hero_buttons ul {
   display: flex;
   justify-content: space-between;
@@ -108,13 +117,12 @@ h1 {
 .hero_buttons li {
   list-style: none;
 }
-.hero_buttons li a {
+.hero_buttons li i {
   list-style: none;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 5px;
   transition: all ease 0.5s;
   box-shadow: 0px 26px 58px 0px rgba(0, 0, 0, 0.22),
     0px 5px 14px 0px rgba(0, 0, 0, 0.18);
@@ -132,4 +140,52 @@ h1 {
   color: aliceblue;
   transition: all ease 0.2s;
   /* color: black; */
+}
+
+.feature_section {
+  width: 95%;
+  margin: 70px auto 70px auto;
+}
+.box {
+  display: flex;
+}
+.box div {
+  flex: 1;
+  box-shadow: 0px 26px 58px 0px rgba(0, 0, 0, 0.22),
+    0px 5px 14px 0px rgba(0, 0, 0, 0.18);
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+.box div:hover {
+  
+  box-shadow: 2px 6px 8px 10px rgba(230, 3, 3, 0.22),
+    10px 5px 14px 0px rgba(51, 201, 13, 0.18);
+ color: aliceblue !important;
+}
+
+.box div i {
+  margin: 30px 0;
+  color: brown;
+}
+h2 {
+  color: #37383a;
+}
+
+.feature_section h1 {
+  color: #37383a;
+  font-size: 50px;
+  margin-left: 1%;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.feature_section h5 {
+  color: #37383a;
+  font-size: 15px;
+  margin-left: 2%;
+  margin-bottom: 5px;
 }
