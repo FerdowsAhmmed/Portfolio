@@ -48,6 +48,53 @@
         width: 80%;;
         /* position: unset; */
       }
+      /* ........... */
+      .feature_section {
+        width: 95%;
+        margin: 100px auto 100px auto;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+      }
+      .box div {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .box div i {
+        /* margin: 30px 0; */
+        color: brown;
+      }
+      
+      .box div:hover {
+        background-color: red;
+        color: white;
+      }
+      
+      .box div:hover h2,
+      .box div:hover p,
+      .box div:hover i {
+        color: white;
+      }
+      
+      .feature_section h1 {
+        color: #37383a;
+        font-size: 40px;
+        margin-left: 2%;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      .feature_section h5 {
+        color: #ee8625;
+        font-size: 12px;
+        margin-left: 2%;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+      /* ..... */
 
       .feature_section {
         width: 100%;

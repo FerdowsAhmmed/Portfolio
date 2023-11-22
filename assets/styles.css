@@ -234,13 +234,12 @@ h6 {
   gap: 30px;
   display: flex;
   flex-direction: column;
-  transition: all 0.2s;
   overflow: hidden;
 }
-.box_contents .image {
+.box_contents img {
   width: 100%;
   border-radius: 20px;
-  transition: 0.2s;
+  transition: 0.4s;
   vertical-align: middle;
 }
 .box_contents h3 {
