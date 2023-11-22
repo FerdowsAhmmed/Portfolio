@@ -284,6 +284,9 @@ h6 {
   transition: all 0.2s;
   width: 100%;
 }
+.contact_box1 img{
+  width: 100%;
+}
 
 .contact_box2 {
   flex: 3;

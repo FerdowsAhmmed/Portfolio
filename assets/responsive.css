@@ -144,14 +144,14 @@
   flex-direction: column;
   gap: 10px;
 }
-.box_contents div, h3{
+.box_contents div{
  padding:10px;
 }
 .box_contents {
   flex: unset;
   box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.22),
     0px 5px 14px 0px rgba(0, 0, 0, 0.18);
-  padding: 0;
+  padding: unset;
   margin: 10px 10px;
   border-radius: 10px;
   gap: unset;
@@ -167,6 +167,7 @@
 }
 .box_contents h3 {
   font-size: 15px;
+  padding-bottom: 20px;
 }
 .box_contents img:hover {
   transform: scale(1.05);
@@ -260,6 +261,17 @@
     border-radius: 10px;
   }
   
+  .MyName{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .designation{
+    font-size: 20px;
+    color: rgb(54, 7, 7);
+    text-align: center;
+    margin-bottom: 5px;
+  }
   .contact_form {
     display: flex;
     flex-direction: column;
@@ -273,13 +285,13 @@
   }
   .contact_form input {
     width: 95%;
-    padding: unset;
+    padding: 7px;
      margin: 0 auto; 
     outline: none;
   }
   .contact_form textarea {
     width: 95%;
-    padding: unset;
+    padding: 7px;
      margin: 0 auto; 
     outline: none;
   }
