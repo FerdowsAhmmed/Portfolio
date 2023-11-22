@@ -56,7 +56,7 @@
       /* ........... */
       .feature_section {
         width: 95%;
-        margin: 100px auto 100px auto;
+        margin: 100px auto 10px auto;
       }
       .box {
         display: flex;
@@ -123,18 +123,10 @@
         flex-direction: column;
         transition: 1s;
       }
-.contact_section {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 5px;
-  text-align: center;
-}
- .portfolio_section{
-  width: 100%;
-  margin-top: 20px;
-  padding: 5px;
-  text-align: center;
+      /* portfolio start */
+.portfolio_section{
+  width: 95%;
+  margin: 100px auto 100px auto;
 }
 .feature {
   color: #ee8625;
@@ -150,6 +142,86 @@
 .box2 {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+.box_contents div, h3{
+ padding:10px;
+}
+.box_contents {
+  flex: unset;
+  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.22),
+    0px 5px 14px 0px rgba(0, 0, 0, 0.18);
+  padding: 0;
+  margin: 10px 10px;
+  border-radius: 10px;
+  gap: unset;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.box_contents img {
+  width: 100%;
+  border-radius: 5px;
+  transition: 0.4s;
+  vertical-align: middle;
+}
+.box_contents h3 {
+  font-size: 15px;
+}
+.box_contents img:hover {
+  transform: scale(1.05);
+  /* overflow: hidden; Hide overflow on hover */
+}
+
+.text_price {
+  display: flex;
+  justify-content: space-between !important;
+}
+.icon_price {
+  display: flex;
+  justify-content: space-between !important;
+}
+.box_contents div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box_contents div i {
+  color: brown;
+  margin-right: 5px;
+}
+.feature_heading h4 {
+  color: rgb(241, 83, 83);
+}
+/* portfolio finished */
+.contact_section {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+}
+ .portfolio_section{
+  width: 100%;
+  margin: 15px auto 15px auto;
+  padding: 5px;
+  text-align: center;
+}
+.feature {
+  color: #ee8625;
+}
+.feature2 {
+  font-size: 35px;
+  font-weight: 700px;
+}
+.portfolio_heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  gap: unset;
 }
 
 .box_contents img {
