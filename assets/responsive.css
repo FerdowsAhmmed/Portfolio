@@ -21,6 +21,7 @@
      }
      .hero_section {
         flex-direction: column-reverse;
+        margin-top: 10px;
       }
 
       .hero_content {
